@@ -84,3 +84,16 @@ function getNine() {
 let result = getNine();
 console.log(result);After a Function Call
 
+
+
+
+//Задача 9
+// Catch Arguments Passed in the Wrong Order When Calling a Function
+function raiseToPower(b, e) {
+  return Math.pow(b, e);
+}
+
+let exp = 3;
+let base = 2;
+let power = raiseToPower(base, exp);
+console.log(power);
