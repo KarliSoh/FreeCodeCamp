@@ -1,1 +1,3 @@
-
+// Задача 1
+// Use an Array to Store a Collection of Data
+let yourArray = [1, 'hello kitty', true, null, 245]; // Change this line
