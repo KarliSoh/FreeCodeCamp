@@ -22,3 +22,19 @@ function reverseString(str) {
 
 let p = reverseString("hello");
 console.log(p);
+
+
+
+
+// Задача 3
+// Factorialize a Number
+function factorialize(num) {
+  let win = 1;
+  for (let i = 2; i <=num; i++) {
+    win *= i;
+  }
+  return win;
+}
+
+let p = factorialize(5);
+console.log(p);
