@@ -38,3 +38,24 @@ function factorialize(num) {
 
 let p = factorialize(5);
 console.log(p);
+
+
+
+
+// Задача 4
+// Find the Longest Word in a String
+function findLongestWordLength(str) {
+  let strLeng = str.split(' ');
+  let worlds = 0;
+  for (let i = 0; i < strLeng.length; i++) {
+    if (strLeng[i].length > worlds) {
+      worlds = strLeng[i].length;
+    }
+  }
+
+  return worlds;
+}
+
+let p = findLongestWordLength("The quick brown fox jumped over the lazy dog");
+
+console.log(p);
