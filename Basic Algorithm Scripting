@@ -59,3 +59,9 @@ function findLongestWordLength(str) {
 let p = findLongestWordLength("The quick brown fox jumped over the lazy dog");
 
 console.log(p);
+
+
+
+
+// Задача 5
+// Return Largest Numbers in Arrays
